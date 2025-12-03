@@ -1,0 +1,10 @@
+.changeset
+.github
+
+.vscode
+.idea
+
+index.ts
+tsconfig.json
+
+node_modules
