@@ -1,4 +1,4 @@
-# tree-log
+# dendro-log
 
 ## 0.0.2
 

@@ -1,11 +1,11 @@
-# tree-log
+# dendro-log
 
 A TypeScript library for rendering complex data structures as a tree in the console.
 
 ## Installation
 
 ```bash
-npm install tree-log
+npm install dendro-log
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install tree-log
 ### Basic Example
 
 ```typescript
-import { logTree } from 'tree-log';
+import { logTree } from 'dendro-log';
 
 const data = {
   users: [
@@ -32,7 +32,7 @@ logTree(data);
 ### Using TreeLogger Class
 
 ```typescript
-import { TreeLogger } from 'tree-log';
+import { TreeLogger } from 'dendro-log';
 
 const treeRenderer = new TreeLogger({ showTypes: true });
 console.log(treeRenderer.render({ foo: 'bar' }, 'example'));
